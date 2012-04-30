@@ -51,6 +51,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
+    # external apps
+    'south',
+    # internal apps
+    '{{ project_name }}.core',
 )
 
 LOGGING = {
