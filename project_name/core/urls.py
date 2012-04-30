@@ -4,5 +4,5 @@ from {{ project_name }}.core import views
 
 
 urlpatterns = patterns('',
-    url(r'^$', views.hello, name='core-hello'),
+    url(r'^$', views.index, name='core-index'),
 )
